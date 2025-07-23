@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "num_words",
+        "post_prompt",
+        "tone"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a professional social media content creator.\n\n    Based on the following:\n    - Post Prompt: {post_prompt}\n    - Number of Words: {num_words}\n    - Tone: {tone}\n\n    Generate a high-quality social media post.\n\n    Rules:\n    - Ensure the post adheres to the specified tone: {tone} and {post_prompt}.\n    - The post should be {num_words} words.\n    - Include a call-to-action (CTA) at the end of the post.\n    - Use engaging language to capture the audience's attention.\n    - If applicable, include 3-5 relevant hashtags at the end of the post.\n\n    Also Generate a well designed image prompt for the post.\n    - The image prompt should be visually appealing and relevant to the post content.\n    - Include details about colors, style, and any specific elements to include in the image.\n    - The image prompt should be suitable for platforms like Instagram, Facebook, or Twitter.\n    - The image prompt should be 2-4 sentences.\n\n    Format:\n    Post: ...\n    Hashtags: ...\n    imaege prompt: ...\n\n    Start now.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

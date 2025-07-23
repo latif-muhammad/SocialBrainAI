@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "keywords",
+        "num_posts",
+        "tone",
+        "user_prompt"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a creative social media strategist and Prompt Engineer.\n\n    Based on the following:\n    - User Topic: {user_prompt}\n    - Trending Keywords: {keywords}\n    - Tone: {tone}\n    - Number of Posts: {num_posts}\n\n    Generate {num_posts} UNIQUE and engaging social media post prompts.\n\n    Rules:\n    - Incorporate multiple trending keywords into each post idea (at least 2 per post)\n    - Match the tone: {tone}\n    - Write breifly about the post structure and things to include (7 sentences max)\n    - Include a separate line with 7-10 hashtags\n    - Each post should be unique and not repetitive.\n    - specify that the post is a text based social media post.\n\n\n    Format:\n    1. prompt: ...\n       Hashtags: ...\n\n    Start now.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

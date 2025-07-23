@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "user_prompt"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are a social media trend analyst. Given a user prompt, your job is to extract\n    the most trending keywords, hashtags, and related tags that people are searching or using online.\n\n    Rules:\n    - Focus on keywords that are popular in 2025.\n    - Include hashtags that are trending on Facebook, X, TikTok, Instagram, Linkedin and YouTube.\n    - Return exactly 25 items as a list.\n    - Don't include explanations, only output the tags or keywords.\n\n    User Prompt: \"{user_prompt}\"\n\n    Trending Keywords:\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
